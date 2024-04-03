@@ -21,11 +21,11 @@
  */
 #define AWS_OP_SKIP (-2)
 
-#ifndef AWS_UNSTABLE_TESTING_API
-#    error The AWS Test Fixture is designed only for use by AWS owned libraries for the AWS C99 SDK. You are welcome to use it,   \
-but you should be aware we make no promises on the stability of this API.  To enable use of the aws test fixtures, set \
-the AWS_UNSTABLE_TESTING_API compiler flag
-#endif
+// #ifndef AWS_UNSTABLE_TESTING_API
+// #    error The AWS Test Fixture is designed only for use by AWS owned libraries for the AWS C99 SDK. You are welcome to use it,   \
+// but you should be aware we make no promises on the stability of this API.  To enable use of the aws test fixtures, set \
+// the AWS_UNSTABLE_TESTING_API compiler flag
+// #endif
 
 #ifndef AWS_TESTING_REPORT_FD
 #    define AWS_TESTING_REPORT_FD stderr
